@@ -1,0 +1,46 @@
+{
+  "iPhone-6S": {
+    "udid": "A7A5A1DDE048FE70B65A520CC91C0D9B5AB9195C",
+    "deviceName": "iPhone-6S",
+    "platformName": "iOS",
+    "platformVersion": "11.4",
+    "manufacturer": "Apple"
+  },
+  "iPhone-7 Plus": {
+    "udid": "81131C1BC4592F5332E089C23339318043476FEB",
+    "deviceName": "iPhone-7 Plus",
+    "platformName": "iOS",
+    "platformVersion": "11.2.5",
+    "manufacturer": "Apple"
+  },
+  "iPhone-8": {
+    "udid": "9965539E901156A7BA1F7E8ECD9592AD029AD256",
+    "deviceName": "iPhone-8",
+    "platformName": "iOS",
+    "platformVersion": "11.4",
+    "manufacturer": "Apple"
+  },
+  "iPhone-X": {
+    "udid": "ACC7721AA72596FF9B9D67D2E80B693AF15CB7A7",
+    "deviceName": "iPhone-X",
+    "platformName": "iOS",
+    "platformVersion": "11.0.1",
+    "manufacturer": "Apple"
+  },
+  "Galaxy S8": {
+    "udid": "9888EA445135454455",
+    "deviceName": "Galaxy S8",
+    "platformName": "Android",
+    "platformVersion": "7.0",
+    "manufacturer": "Samsung",
+    "appActivity": "com.safeway.client.android.ui.SafewayMainActivit"
+  },
+  "Pixel": {
+    "udid": "FA6BR0304693",
+    "deviceName": "Pixel",
+    "platformName": "Android",
+    "platformVersion": "7.1.1",
+    "manufacturer": "Google",
+    "appActivity": "com.safeway.client.android.ui.SafewayMainActivit"
+  }
+}

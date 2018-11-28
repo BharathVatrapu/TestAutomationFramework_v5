@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<suite name="Regression Suite" parallel="tests" thread-count="10" verbose="1">
+    <!-- PROD, QA1 -->
+    <parameter name="environment" value="QA1"/>
+    <!-- DESKTOP, MOBILE -->
+    <parameter name="platform" value="DESKTOP"/>
+    <!-- WEB, HEADLESS, APP, API -->
+    <parameter name="service" value="WEB"/>
+    <!--  Chrome, Firefox/ff, Safari,  IE/Internet Explorer/IE11 EDGE -->
+    <parameter name="browser" value="chrome"/>
+    <parameter name="banner" value="safeway"/>
+
+    <listeners>
+        <listener class-name="com.testProject.listeners.TestListener"/>
+    </listeners>
+    <groups>
+        <!--<define name="Regression">-->
+            <!--<exclude name="Registration" />-->
+            <!--<include name="SignIn" />-->
+        <!--</define>-->
+        <!--<define name="Smoke">-->
+            <!--<include name="Registration" />-->
+            <!--<include name="SignIn" />-->
+        <!--</define>-->
+        <!--<define name="All">-->
+            <!--<include name="Regression" />-->
+            <!--<exclude name="Smoke" />-->
+        <!--</define>-->
+        <run>
+
+            <exclude name="SignIn" />
+            <include name="Registration" />
+        </run>
+
+    </groups>
+    <test name="Test-1">
+        <!--<parameter name="browser" value="Chrome"/>-->
+        <classes>
+            <!-- SignIn Suite -->
+            <class name="com.testProject.testsuites.web.demo.signin.VerifySignIn" />
+
+            <!-- Registration Suite -->
+            <class name="com.testProject.testsuites.web.demo.registration.VerifyRegistration" />
+        </classes>
+    </test>
+
+
+</suite>
+

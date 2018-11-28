@@ -1,0 +1,12 @@
+{
+  "ALM": {
+    "almURL": "http://alm.safeway.com/qcbin",
+    "almUserName": "bkuma03",
+    "almPassword": "Chgbk@0818",
+    "almDomain": "MARKETING",
+    "almProject": "Project_11578",
+    "almTestSetPath": "NextGen_Customer_Portal\2018\OKTA Smoke Test In QA2\Automated",
+    "almTestSetName": "Safeway - IE11 - TODAY",
+    "almTestSetID": "28021"
+  }
+}

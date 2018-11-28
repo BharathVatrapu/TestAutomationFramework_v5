@@ -1,0 +1,18 @@
+2018-11-28 12:33:11 INFO  Log:24 - VerifySignIn :: TestScript is Start
+2018-11-28 12:33:11 INFO  Log:12 - ------------------------------
+2018-11-28 12:33:11 INFO  Log:13 - Mehtod# RegistrationPage:::'gotoRegistraionPage' :: is Start
+2018-11-28 12:33:19 INFO  Log:24 - Navigated URL is :https://ngcp-qa1.safeway.com/CMS/account/register/?bannerId=safeway
+2018-11-28 12:33:19 INFO  Log:18 - Mehtod# RegistrationPage:::'gotoRegistraionPage' :: is End
+2018-11-28 12:33:19 INFO  Log:19 - ------------------------------
+2018-11-28 12:33:19 INFO  Log:24 - **********************************************************************
+2018-11-28 12:33:19 INFO  Log:24 - Step 1:: PASS: :  Navigate to Registration page. ::: Registraiton page is displayed
+2018-11-28 12:33:19 INFO  Log:24 - **********************************************************************
+2018-11-28 12:33:19 INFO  Log:12 - ------------------------------
+2018-11-28 12:33:19 INFO  Log:13 - Mehtod# RegistrationPage:::'userRegister' :: is Start
+2018-11-28 12:33:25 INFO  Log:18 - Mehtod# RegistrationPage:::'userRegister' :: is End
+2018-11-28 12:33:25 INFO  Log:19 - ------------------------------
+2018-11-28 12:33:25 INFO  Log:24 - **********************************************************************
+2018-11-28 12:33:25 INFO  Log:24 - Step 2:: PASS: :  Enter Valid data in registration form ::: User is register Successful
+2018-11-28 12:33:25 INFO  Log:24 - **********************************************************************
+2018-11-28 12:33:26 INFO  Log:24 - VerifySignIn :: TestScript is End
+2018-11-28 12:33:26 INFO  Log:24 - ===================================================================

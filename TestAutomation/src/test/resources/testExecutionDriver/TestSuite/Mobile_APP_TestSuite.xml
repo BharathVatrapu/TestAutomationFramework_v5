@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<suite name="Regression Suite" parallel="tests" thread-count="10" verbose="1">
+    <!-- PROD, QA1 -->
+    <parameter name="environment" value="PROD"/>
+    <!-- DESKTOP, MOBILE -->
+    <parameter name="platform" value="MOBILE"/>
+    <!-- WEB, APP, HEADLESS -->
+    <parameter name="service" value="APP"/>
+    <parameter name="network" value="cloud"/>
+    <!-- iPhone-6S, Pixel  -->
+    <parameter name="mobileDevice" value="iPhone-6S"/>
+    <parameter name="banner" value="Safeway"/>
+    <parameter name="appName" value="com.safeway.j4u"/>
+    <!--com.safeway.client.android.safeway-->
+    <!--com.vons.j4u.entprod-->
+    <listeners>
+        <listener class-name="com.testProject.listeners.TestListener"/>
+    </listeners>
+
+
+    <groups>
+        <run>
+            <include name="Registration" />
+            <include name="SignIn" />
+        </run>
+    </groups>
+
+    <test name="Test-1">
+
+        <classes>
+            <!-- SignIn Suite -->
+            <class name="com.testProject.testsuites.mobile.demo.signin.verifySignInTestPass" />
+        </classes>
+    </test>
+</suite>
+

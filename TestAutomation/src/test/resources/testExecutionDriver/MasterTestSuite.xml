@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+
+<suite name="TestExecution" verbose="1">
+
+
+    <suite-files>
+        <!--suppress XmlPathReference -->
+        <suite-file path="src/test/resources/testExecutionDriver/TestSuite/Web_TestSuite.xml"/>
+        <!--suppress XmlPathReference -->
+        <suite-file path="src/test/resources/testExecutionDriver/TestSuite/Mobile_Web_TestSuite.xml"/>
+        <!--suppress XmlPathReference -->
+        <suite-file path="src/test/resources/testExecutionDriver/TestSuite/Mobile_APP_TestSuite.xml"/>
+    </suite-files>
+</suite>
+
+
+
+
+
+
+
+
+
+
+
+
